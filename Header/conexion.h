@@ -11,14 +11,14 @@ sql::ResultSet *result_mes;
 sql::PreparedStatement *DB;
 
 //Hoost Local
-const string server = "localhost";
-const string username = "root";
+const string server = "";
+const string username = "";
 const string password = "";
 
 //Host Internet
-//const string server = "sql104.epizy.com";
-//const string username = "epiz_27849067";
-//const string password = "edUXrxOkflhV";
+//const string server = "";
+//const string username = "";
+//const string password = "";
 
 sql::Driver* driver;
 sql::Connection* con;
